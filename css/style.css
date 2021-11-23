@@ -1,8 +1,4 @@
 
-/* Imposta header e main a 0*/
-*{
-    margin: auto;
-}
 
 /*Inizio impostazioni header*/
 #logo-pic{
@@ -13,7 +9,51 @@
 
 #titolo{
     font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     font-size: 50px;
     vertical-align: middle;
 }
 /*Fine impostazioni header*/
+
+
+
+/*Inizio formattazione main*/
+main{
+    background-color:#F6F8F9;
+    height: 1000px;
+    padding-top: 50px;
+}
+
+.buttons{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+#add-task, #add-section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#add-task{
+    background-color: rgb(58, 155, 237);
+    color: white;
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+#add-section{
+    text-align: center;
+    color:lightgray;
+}
+
+#add-task, #add-section{
+    border-radius: 10px;
+}
