@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
@@ -18,7 +21,7 @@
     <!--Inizio header-->
     <header>
         <div class="logo">
-            <img id="logo-pic" src="img/logo copia.png" alt="logo-header">
+            <img id="logo-pic" src="img/logo-copia.png" alt="logo-header">
             <span id="titolo">Toboolist</span>
         </div>
 
@@ -31,44 +34,209 @@
          <!--Inizio buttons-->
         <div class="buttons">
             <button id="add-task">Add Task</button>
-            <input type="text" name="" id="add-section" placeholder="Add Section">
+            <input type="text" name="aggiungi selezione" id="add-section" placeholder="Add Section">
         </div>   
         <!--Fine buttons-->
 
+        <!--Inizio checklist-->
         <div class="checklist">
 
+
+            <!--Inizio new task-->
+            <!--Inizio titolo sezione-->
             <div class="new-task">
                 <span class="freccia">&#9660;</span>
                 <span class="titolino">New Task</span>
             </div>
+            <!--Inizio titolo sezione-->
 
+            <!--Inizio Quarterly newsletter-->
             <div class="content-sezione">
-                <span class="box">
-                    <span class="spunta">&#10003;</span>
-                </span>
 
-                <span class="text">
+                <span class="box-done">
+                    <span class="spunta-done">&#10003;</span>
+                </span>
+        
+                <span class="text-task">
                     Quarterly Newsletter
                 </span>
 
-                <span class="selettore">
-                    Editorial
-                </span>
+                <div class="selector editorial">
+                    <span class="selector-text">
+                        Editorial
+                    </span>
+
+                </div>
+            </div>
+            <!--Inizio Quarterly newsletter-->
+            <!--Fine new task-->
+
+
+            <!--Inizio today-->
+            <div class="today">
+                <span class="freccia">&#9660;</span>
+                <span class="titolino">Today</span>
             </div>
 
-          
+            <!--Inizio Recruiting blog post-->
+            <div class="content-sezione-2">
+
+                <span class="box-done">
+                    <span class="spunta-done">&#10003;</span>
+                </span>
+            
+                <span class="text-task">
+                    Recruiting blog post
+                </span>
+
+                <div class="selector editorial">
+                    <span class="selector-text">
+                        Editorial
+                    </span>
+                </div>
+            </div>
+            <!--Fine Recruiting blog post-->
+
+            <!--Inizio Mobile app launch-->
+            <div class="content-sezione-2">
+
+                <span class="box-done">
+                    <span class="spunta-done">&#10003;</span>
+                </span>
+            
+                <span class="text-task">
+                    Mobile app launch
+                </span>
+
+                <div class="selector q1-goals">
+                    <span class="selector-text">
+                        Q1 Goals
+                    </span>
+                </div>
+            </div>
+            <!--Fine Mobile app launch-->
+        
+            <!--Inizio Interview John H.-->
+            <div class="content-sezione-2">
+
+                <span class="box-undone">
+                    <span class="spunta-undone">&#10007;</span>
+                </span>
+            
+                <span class="text-task">
+                    Interview John H.
+                </span>
+
+                <div class="selector recruiting">
+                    <span class="selector-text">
+                        Recruiting
+                    </span>
+                </div>
+            </div>
+            <!--Fine Interview John H.-->
+
+            <!--Inizio Summit update to mobile storefronts-->
+            <div class="content-sezione-2">
+
+                <span class="box-done">
+                    <span class="spunta-done">&#10003;</span>
+                </span>
+            
+                <span class="text-task">
+                    Summit update to mobile storefronts
+                </span>
+
+                <div class="selector mobile">
+                    <span class="selector-text">
+                        Mobile
+                    </span>
+                </div>
+            </div>
+            <!--Inizio Summit update to mobile storefronts-->
+
+
+            <!--Inizio Upcoming-->
+            <!--Inizio titolo sezione-->
+            <div class="upcoming">
+                <span class="freccia">&#9660;</span>
+                <span class="titolino">Upcoming</span>
+            </div>
+            <!--Fine titolo sezione-->
+
+            <!--Inizio Schedule meeting with Alex-->
+            <div class="content-sezione-2">
+
+                <span class="box-undone">
+                    <span class="spunta-undone">&#10007;</span>
+                </span>
+            
+                <span class="text-task">
+                    Schedule meeting with Alex
+                </span>
+            </div>
+            <!--Fine Schedule meeting with Alex-->
+
+            <!--Inizio Homepage refresh-->
+            <div class="content-sezione-2">
+
+                <span class="box-done">
+                    <span class="spunta-done">&#10003;</span>
+                </span>
+            
+                <span class="text-task">
+                    Homepage refresh
+                </span>
+
+                <div class="selector website">
+                    <span class="selector-text">
+                        Website
+                    </span>
+                </div>
+
                 
+            </div>
+            <!--Inizio Homepage refresh-->
 
+            <!--Inizio Onboard new sales team members-->
+            <div class="content-sezione-2">
+
+                <span class="box-done">
+                    <span class="spunta-done">&#10003;</span>
+                </span>
+            
+                <span class="text-task">
+                    Onboard new Sales team members
+                </span>
+
+                <div class="selector sales">
+                    <span class="selector-text">
+                        Sales
+                    </span>
+                </div>
+            </div>
+            <!--Fine Onboard new sales team members-->
+
+            <!--Inizio Review editorial calendar-->
+            <div class="content-sezione-2">
+
+                <span class="box-done">
+                    <span class="spunta-done">&#10003;</span>
+                </span>
+            
+                <span class="text-task">
+                    Review editorial calendar
+                </span>
+
+                <div class="selector editorial">
+                    <span class="selector-text">
+                        Editorial
+                    </span>
+                </div>
+            </div>
+            <!--Inizio Review editorial calendar-->
+            <!--Fine Upcoming-->
         </div>
-
-
-        
-
-        
-    </main>
-
-    
+    </main>    
     <!--Fine main-->
-    
 </body>
 </html>

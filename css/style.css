@@ -1,4 +1,6 @@
-
+*{
+    margin: auto;
+}
 
 /*Inizio impostazioni header*/
 #logo-pic{
@@ -18,13 +20,17 @@
 
 
 /*Inizio formattazione main*/
+
+/*Inizio formattazione main container*/
 main{
     box-sizing: border-box;
     background-color:#F6F8F9;
-    height: 1000px;
+    height: 1500px;
     padding-top: 50px;
 }
+/*Fine formattazione main container*/
 
+/*Inizio Add task e Add section*/
 .buttons{
     background-color: white;
     width: 70%;
@@ -37,11 +43,17 @@ main{
     border-top-right-radius: 5px;
 }
 
+::placeholder{
+    color: lightgray;
+}
+
 #add-task, #add-section{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
+    border: lightgray solid 1px;
+    border-radius: 10px;
 }
 
 #add-task{
@@ -55,15 +67,20 @@ main{
 
 #add-section{
     text-align: center;
-    color:lightgray;
+    border: lightgray solid 1px;
 }
+/*Fine Add task e Add section*/
 
-#add-task, #add-section{
-    border-radius: 10px;
+/*Inizio formattazione titolo sezioni*/
+.today, .upcoming{
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
+/*Fine formattazione titolo sezioni*/
 
+/*Inizio formattazione Checklist*/
 .checklist{
-    height: 500px;
+    height: 800px;
     background-color: white;
     width: 70%;
     margin: auto;
@@ -89,25 +106,6 @@ main{
     padding-right: 10px;
 }
 
-.box{
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    border: solid green 2px;
-    border-radius: 50%;
-    position: relative;
-    margin-right: 20px;
-       
-}
-
-.spunta{
-    display: inline-block;
-    color: green;
-    position: absolute;
-    padding: 50%;
-    vertical-align: middle;
-}
-
 .text{
     display: inline-block;
     font-size: 30px;
@@ -116,18 +114,88 @@ main{
    
 }
 
-.content-sezione{
+.box-done, .box-undone{
     display: inline-block;
-    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 20px;
 }
 
-.selettore{
+.box-done{
+    border: green solid 2px;
+}
+
+.box-undone{
+    border:  solid 2px;
+}
+.spunta-done, .spunta-undone{
     display: inline-block;
-    background-color: hotpink;
-    border-radius: 25px;
-    padding: 13px;
-    margin-left: 20px;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.spunta-done, .box-done{
+    color: green;
+}
+
+.spunta-undone, .box-undone{
+    color: red;
+}
+.text-task{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+
+/*Inizio forma selettori*/
+.selector{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+/*Fine forma selettori*/
+
+
+/*Inizio colori slettori*/
+.editorial{
+    background-color: rgb(58, 155, 237);
+}
+
+.q1-goals{
+    background-color: rgb(137, 87, 221);
+}
+
+.recruiting{
+    background-color: rgb(85, 180, 153);
+}
+
+.mobile{
+    background-color: rgb(237, 140, 40);
+}
+
+.website{
+    background-color: rgb(205, 73, 144);
+}
+
+.sales{
+    background-color: rgb(161, 193, 29);
+}
+
+.selector-text{
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+/*Fine colori slettori*/
 
+
+
+.content-sezione-2{
+    margin-bottom: 15px;
+}
