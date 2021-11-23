@@ -19,6 +19,7 @@
 
 /*Inizio formattazione main*/
 main{
+    box-sizing: border-box;
     background-color:#F6F8F9;
     height: 1000px;
     padding-top: 50px;
@@ -31,6 +32,9 @@ main{
     padding-left: 50px;
     padding-top: 25px;
     padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 #add-task, #add-section{
@@ -57,3 +61,73 @@ main{
 #add-task, #add-section{
     border-radius: 10px;
 }
+
+.checklist{
+    height: 500px;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+.titolino{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.new-task{
+    margin-bottom: 15px;
+}
+
+.freccia{
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.box{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: solid green 2px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 20px;
+       
+}
+
+.spunta{
+    display: inline-block;
+    color: green;
+    position: absolute;
+    padding: 50%;
+    vertical-align: middle;
+}
+
+.text{
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: middle;
+    vertical-align: middle;
+   
+}
+
+.content-sezione{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.selettore{
+    display: inline-block;
+    background-color: hotpink;
+    border-radius: 25px;
+    padding: 13px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
